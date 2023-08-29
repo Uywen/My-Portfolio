@@ -1,0 +1,203 @@
+body{
+  background-color: rgb(48, 46, 46);
+  font-family: 'Handjet', cursive;
+}
+
+.about-me{
+  margin-top: 10rem;
+  text-align:center;
+  color: white;
+  font-size: 2rem;
+  border: medium solid greenyellow;
+  border-style: dotted;
+  
+}
+
+.typewriter{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.my-image{
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.image{
+  border-radius: 50%;
+  height: 22rem;
+  width: 100%;
+  max-width: 22rem;
+}
+
+.image:hover{
+  transform: scale(1.1);
+  transition: 0.9s;
+  z-index: 102;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.name{
+  text-align: center;
+}
+
+.my-name{
+  font-size:6rem;
+  color: blue;
+}
+
+.my-name:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: green;
+  transition: 0.5s;
+}
+
+
+.my-projects-heading{
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+
+.my-projects-heading:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+
+
+
+.info-me{
+  color: whitesmoke;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.techStack-heading{
+  color: yellow;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.logos{
+  width:40px;
+  height: 40px;
+  padding:2px;
+  
+}
+
+
+
+.techStack{
+  display: grid;
+  background-color: rgb(19, 18, 18);
+  border: 2px solid yellow;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 2px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.education{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 5px;
+  background-color: rgb(34, 34, 34);
+  margin-top: 4rem;
+  border: 1px solid yellow;
+  margin-bottom: 2rem;
+}
+
+.education-paragraph{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.education-paragraph:hover{
+  font-weight: bold;
+}
+a{
+  color: green;
+}
+
+a:hover{
+  color: lightblue;
+}
+
+.contact-me{
+  margin-top: 3rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.contact-me:hover{
+  font-weight: bold;
+}
+
+
+.card-container{
+  max-width: 700px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in;
+}
+
+.card-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img{
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-content{
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+
+.card-title{
+  margin-bottom: 0.5rem;
+}
+
+.links{
+  justify-content: center;
+}
+
+.project-section{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.logos-projects{
+  width:10px;
+  height: 12px;
+  padding:2px;
+}
+
+.tech-stack-labels{
+  display: grid;
+  margin: 1rem;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  gap:3rem;
+}
